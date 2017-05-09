@@ -1,0 +1,29 @@
+@import 'variables.css';
+@import 'buttons.css';
+
+
+.navcontainer {
+  margin: 1.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.home {
+  composes: button;
+}
+
+.channel {  
+  composes: pill;
+  min-width: 5rem;
+  padding: 1.2rem;
+  transition: all 0.25s; 
+  color: #5bb5b9;
+}
+
+.channel:hover {
+  background-color: #5bb5b9;
+  color: white;
+}
+

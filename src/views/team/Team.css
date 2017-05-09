@@ -1,0 +1,11 @@
+@import 'variables.css';
+@import 'fields.css';
+
+
+.agent {
+  width: 33%;
+  font-size: 100%;
+  padding: 0rem;
+  margin: 0.5rem 0rem;
+}
+

@@ -1,0 +1,11 @@
+# dependencies
+node_modules
+dist
+archive
+push-build.sh
+
+# misc
+.DS_Store
+.env
+yarn*
+npm-debug.log

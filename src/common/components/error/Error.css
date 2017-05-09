@@ -1,0 +1,21 @@
+@import 'variables.css';
+
+
+.error {
+  text-align: center;
+  width: 20rem;
+  padding: 2rem;
+  margin: 5rem auto;
+}
+
+.heading {
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.copy {
+  line-height: 1.3;
+  margin: 1rem;
+  font-size: 95%;
+  color: #aaa;
+}

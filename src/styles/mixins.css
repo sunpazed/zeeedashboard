@@ -1,0 +1,24 @@
+:root {
+  --text-truncate: {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  --screen-reader-only: {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  --clear-list: {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+}

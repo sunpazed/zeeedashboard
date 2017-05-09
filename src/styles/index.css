@@ -1,0 +1,22 @@
+@import 'normalize.css/normalize.css';
+@import './typography';
+@import './variables.css';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--text-base-color);
+  background-color: #fff;
+}
+
+::selection {
+  background: var(--primary-color);
+}
